@@ -1,16 +1,3 @@
-//****************************************************************************************************
-//     File:               A4_Ingredients.cpp
-// 
-//     Student:            Anna Sargsyan
-// 
-//     Assignment:         Program #4
-// 
-//     Course Name:        Programming I
-// 
-//     Course Number:      COSC 1550-01
-// 
-//     Due:                February 20, 2023
-//
 //     This program asks the user to input the price of each ingredients used 
 //     for cooking cookies, then calculates the total price of  
 //     ingredients used for making 20 dozen Chocolate Chips cookies.
@@ -37,7 +24,7 @@ int main()
 
     const double DOZEN = 20,
     BUTTER_CUP = 5,
-    WHITE_SUGAR_CUPS = (7.5),
+    WHITE_SUGAR_CUPS = 7.5,
     EGGS = 10,
     VANILA_EXTRACT_TSP = 10,
     ALL_PURPOSE_FLOUR_CUPS = 10,
@@ -119,7 +106,7 @@ int main()
         << totalCost << endl;
 
 
-        return 0;
+    return 0;
 }
     
 //****************************************************************************************************
